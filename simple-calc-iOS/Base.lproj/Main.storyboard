@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="landscape">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="simple_calc_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgX-xV-L6Y">
-                                <rect key="frame" x="40" y="110" width="30" height="43"/>
+                                <rect key="frame" x="40" y="130" width="30" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="0.37482564937756624" blue="0.2867010322483835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7D-We-o7O">
-                                <rect key="frame" x="121" y="110" width="19" height="43"/>
+                                <rect key="frame" x="121" y="130" width="19" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="19" id="etc-yn-0m9"/>
                                 </constraints>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0Z-kU-ZsV">
-                                <rect key="frame" x="182" y="110" width="30" height="43"/>
+                                <rect key="frame" x="182" y="130" width="30" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="0.37647058823529411" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOq-5r-tR1">
-                                <rect key="frame" x="40" y="160" width="30" height="43"/>
+                                <rect key="frame" x="40" y="180" width="30" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="1" green="0.37482564937756624" blue="0.2867010322483835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -61,7 +61,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGk-t3-5wU">
-                                <rect key="frame" x="121" y="160" width="19" height="43"/>
+                                <rect key="frame" x="121" y="180" width="19" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="1" green="0.37482564937756624" blue="0.2867010322483835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -71,7 +71,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0k-tM-YFk">
-                                <rect key="frame" x="182" y="160" width="30" height="43"/>
+                                <rect key="frame" x="182" y="180" width="30" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="1" green="0.37482564937756624" blue="0.2867010322483835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bX-5L-OZO">
-                                <rect key="frame" x="40" y="210" width="30" height="43"/>
+                                <rect key="frame" x="40" y="230" width="30" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="7">
                                     <color key="titleColor" red="1" green="0.37482564937756624" blue="0.2867010322483835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -91,7 +91,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IdU-Er-a6s">
-                                <rect key="frame" x="121" y="210" width="19" height="43"/>
+                                <rect key="frame" x="121" y="230" width="19" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="8">
                                     <color key="titleColor" red="1" green="0.37482564937756624" blue="0.2867010322483835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -101,7 +101,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gao-Oe-rGE">
-                                <rect key="frame" x="121" y="260" width="19" height="43"/>
+                                <rect key="frame" x="121" y="280" width="19" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="1" green="0.37482564940000002" blue="0.28670103219999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -111,7 +111,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPJ-rx-VzK">
-                                <rect key="frame" x="182" y="210" width="30" height="43"/>
+                                <rect key="frame" x="182" y="230" width="30" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="1" green="0.37482564937756624" blue="0.2867010322483835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -121,7 +121,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gto-85-wAY">
-                                <rect key="frame" x="121" y="52" width="44" height="43"/>
+                                <rect key="frame" x="121" y="72" width="44" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="sub">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -132,7 +132,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqH-z9-pH7">
-                                <rect key="frame" x="203" y="52" width="49" height="43"/>
+                                <rect key="frame" x="203" y="72" width="49" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="mul">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -143,7 +143,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oam-7f-Ip5">
-                                <rect key="frame" x="399" y="52" width="40" height="43"/>
+                                <rect key="frame" x="294" y="72" width="40" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="div">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -154,7 +154,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qg-ph-GYD">
-                                <rect key="frame" x="40" y="260" width="59" height="43"/>
+                                <rect key="frame" x="40" y="280" width="59" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="mod">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -165,7 +165,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0q-hS-6Ml">
-                                <rect key="frame" x="40" y="52" width="46" height="43"/>
+                                <rect key="frame" x="40" y="72" width="46" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="add">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -176,7 +176,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qnr-LS-rou">
-                                <rect key="frame" x="395" y="160" width="44" height="43"/>
+                                <rect key="frame" x="290" y="180" width="44" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="avg">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -187,7 +187,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wi8-4c-i7M">
-                                <rect key="frame" x="182" y="260" width="135" height="43"/>
+                                <rect key="frame" x="182" y="280" width="30" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -198,7 +198,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j07-HE-78I">
-                                <rect key="frame" x="368" y="110" width="71" height="43"/>
+                                <rect key="frame" x="263" y="130" width="71" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="count">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -209,7 +209,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ti-ky-R10">
-                                <rect key="frame" x="40" y="311" width="63" height="43"/>
+                                <rect key="frame" x="40" y="331" width="63" height="43"/>
                                 <color key="backgroundColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="clear">
@@ -221,7 +221,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icY-Ux-YZX">
-                                <rect key="frame" x="391" y="210" width="48" height="43"/>
+                                <rect key="frame" x="286" y="230" width="48" height="43"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="fact">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -232,7 +232,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" placeholder="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Upl-Y9-2RG">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="51"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="51"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="1" green="0.37482564940000002" blue="0.28670103219999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -240,7 +240,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0R-0l-CMg">
-                                <rect key="frame" x="347" y="261" width="92" height="43"/>
+                                <rect key="frame" x="242" y="281" width="92" height="43"/>
                                 <color key="backgroundColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <state key="normal" title="history">
@@ -320,11 +320,11 @@
             <objects>
                 <viewController title="HistoryViewController" id="SBz-UI-63T" customClass="HistoryViewController" customModule="simple_calc_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LqF-9x-k9W">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppV-Cs-Kh3">
-                                <rect key="frame" x="8" y="0.0" width="43" height="33"/>
+                                <rect key="frame" x="8" y="20" width="43" height="33"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
                                 <state key="normal" title="close">
                                     <color key="titleColor" red="0.29602010429999998" green="0.27588591099999998" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -335,13 +335,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="history" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wY0-yC-Pgg">
-                                <rect key="frame" x="168" y="14" width="144" height="48"/>
+                                <rect key="frame" x="115.5" y="34" width="144" height="48"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="41"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Qk-th-v5O">
-                                <rect key="frame" x="0.0" y="70" width="480" height="250"/>
+                                <rect key="frame" x="0.0" y="90" width="375" height="577"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
