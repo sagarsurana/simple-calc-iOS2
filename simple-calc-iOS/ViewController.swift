@@ -53,7 +53,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func totalPressed(_ sender: Any) {
-        print(currentFunction)
         let response: Int = calculate(currentFunction)
         var newFunction = converToString(arr: currentFunction)
         newFunction = newFunction + "= " + String(response)
